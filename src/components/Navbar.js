@@ -9,3 +9,12 @@ function Navbar() {
 }
 
 export default Navbar
+
+
+/*
+TODO
+
+- Add Three links mininum (at the top)
+- Make it very minimalist
+
+*/
