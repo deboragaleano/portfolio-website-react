@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {Container} from '@material-ui/core';
 
 function About() {
     return (
         <div>
-            <h1>About me section</h1>
+            <Container>
+                <h1>About me section</h1>
+            </Container>
         </div>
     )
 }

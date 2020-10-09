@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import About from './components/About'; 
+import Navbar from './components/Navbar'; 
 
 function App() {
   return (
     <div className="App">
-      <h1>This will be my wesbite </h1>
+      <Navbar /> 
       <About /> 
     </div>
   );
