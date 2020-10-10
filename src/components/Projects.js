@@ -1,6 +1,6 @@
 import React from 'react'; 
 import {makeStyles} from '@material-ui/styles'; 
-import {Paper, Grid} from '@material-ui/core';
+import {Grid, Button} from '@material-ui/core';
 import SingleProject from './SingleProject'; 
 
 const useStyles = makeStyles({
@@ -22,9 +22,21 @@ function Projects() {
                 <SingleProject /> 
                 <SingleProject /> 
                 <SingleProject /> 
+                {/* <SingleProject />  */}
             </Grid>
+                <Button 
+                    variant='contained'
+                    color="secondary"
+                >See more</Button>
         </div>
     )
 }
 
 export default Projects
+
+/* TODO
+
+- When "see more" is clicked, show 3 more projects if I have those
+- ternary operator with the buttons 
+
+*/

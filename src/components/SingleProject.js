@@ -40,10 +40,10 @@ export default function SingleProject() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
+          GitHub
         </Button>
         <Button size="small" color="primary">
-          Learn More
+          Deployed(?)
         </Button>
       </CardActions>
     </Card>
