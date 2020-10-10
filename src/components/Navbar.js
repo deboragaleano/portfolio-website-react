@@ -15,6 +15,6 @@ export default Navbar
 TODO
 
 - Add Three links mininum (at the top)
-- Make it very minimalist
+- Make it very minimalist and mobile first 
 
 */
