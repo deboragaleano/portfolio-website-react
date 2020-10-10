@@ -39,6 +39,5 @@ export default About
 /**
 
 TODO:
--SHORT version and LONG Version
-
+-SHORT version and LONG Version (?)
 */

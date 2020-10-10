@@ -37,6 +37,7 @@ export default Projects
 /* TODO
 
 - When "see more" is clicked, show 3 more projects if I have those
-- ternary operator with the buttons 
+- ternary operator with the buttons (in case there's more too add)
+- If not, just send to my general GITHUB page
 
 */

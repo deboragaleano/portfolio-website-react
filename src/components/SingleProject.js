@@ -39,7 +39,7 @@ export default function SingleProject() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button variant="contained" size="small" color="primary">
           GitHub
         </Button>
         <Button size="small" color="primary">
