@@ -2,6 +2,7 @@ import React from 'react';
 import {makeStyles} from '@material-ui/styles'; 
 import {Grid, Button} from '@material-ui/core';
 import SingleProject from './SingleProject'; 
+import {projects} from '../projects-data'; 
 
 const useStyles = makeStyles({
     root: {
@@ -10,6 +11,8 @@ const useStyles = makeStyles({
       flexWrap: 'wrap',
     },
 });
+
+console.log(projects);
 
 function Projects() {
     const classes = useStyles();
