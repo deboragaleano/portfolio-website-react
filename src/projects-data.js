@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Workout App',
         image: 'add source',
-        description: 'description',
+        description: 'add some description',
         technologies: ['nodejs', 'material-ui'],
         github: 'add link',
         demo: 'add link app-live demo'

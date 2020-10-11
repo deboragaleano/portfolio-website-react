@@ -21,11 +21,9 @@ function Projects() {
         <div>
             <h1>Projects</h1>
             <Grid className={classes.root}>
-                {/* <Paper style={{width: 100, height: 100,backgroundColor: '#282c34'}}/> */}
-                <SingleProject /> 
-                <SingleProject /> 
-                <SingleProject /> 
-                {/* <SingleProject />  */}
+                {projects.map(p => (
+                    <SingleProject key={p.title} project={p} />
+                ))}
             </Grid>
                 <Button 
                     variant='contained'

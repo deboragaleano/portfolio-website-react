@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SingleProject() {
+export default function SingleProject({project}) {
   const classes = useStyles();
 
   return (
@@ -25,16 +25,14 @@ export default function SingleProject() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={project.image}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            {project.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {project.description}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -42,10 +40,17 @@ export default function SingleProject() {
         <Button variant="contained" size="small" color="primary">
           GitHub
         </Button>
-        <Button size="small" color="primary">
-          Deployed(?)
+        <Button variant="contained" size="small" color="inherit">
+          Live Demo
         </Button>
       </CardActions>
     </Card>
   );
 }
+
+/* TODO 
+
+- Fix width of cards 
+- Add real data
+
+*/
