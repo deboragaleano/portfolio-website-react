@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {NavLink} from 'react-router-dom'; 
 
 function Navbar() {
     return (
         <div>
-            <h1>This will be a navbar</h1>
+            <NavLink exact to="/">Home</NavLink>
+            <NavLink exact to="/about">About</NavLink>
+            <NavLink exact to="/projects">Projects</NavLink>
+            <NavLink exact to="/contact">Contact</NavLink>
         </div>
     )
 }

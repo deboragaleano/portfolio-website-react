@@ -1,21 +1,28 @@
 import React from 'react';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'; 
 import './App.css';
 import Container from '@material-ui/core/Container';
 import About from './components/About'; 
 import Navbar from './components/Navbar'; 
 import Projects from './components/Projects'; 
-import Footer from './components/Footer'; 
+import Home from './components/Home'; 
+
 
 function App() {
   return (
-    <Container maxWidth="lg">
-      <div className="App">
-        <Navbar /> 
-        <About /> 
-        <Projects /> 
-        <Footer />
-      </div>
-    </Container>
+    <BrowserRouter >
+      <Container maxWidth="lg">
+         <Navbar />
+              
+        <div className="App">
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+          </Switch>
+        </div>
+      </Container>
+    </BrowserRouter>
   );
 }
 

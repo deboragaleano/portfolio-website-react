@@ -27,8 +27,8 @@ function Projects() {
             </Grid>
                 <Button 
                     variant='contained'
-                    color="secondary"
-                >See more</Button>
+                    color="secondary">
+                See more</Button>
         </div>
     )
 }
