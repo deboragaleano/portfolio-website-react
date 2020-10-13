@@ -1,6 +1,8 @@
 import React from 'react';
 import {Container, Button} from '@material-ui/core';
 import {makeStyles} from '@material-ui/styles';
+import photo from '../assets/foto_visigrad.png'
+
 import '../App.css'; 
 
 const useStyles = makeStyles({
@@ -10,6 +12,10 @@ const useStyles = makeStyles({
         borderRadius: 15,
         color: 'white',
         padding: '0 30px',
+    },
+    img: {
+        borderRadius: '50%',
+        maxWidth: '100%'
     }
 })
 
@@ -20,8 +26,9 @@ function About() {
         <div className="App-header">
             <Container>
                
-                <h1>About me section</h1>
+                <h1>About me</h1>
                 <div>
+                    <img className={classes.img} src={photo} alt="debora"/>
                     <p>After discovering my passion for coding two years ago, I decided to make a career switch. I come from a humanities/social sciences background and I'm now interested in breaking into world of web development.</p>
                     <p>I am open to remote entry-level positions, where I can continue working on React/NodeJs and where I can build a long-term career. </p>
                     {/* <p>Besides coding, I love travelling and discovering new places. I studied and lived in Europe for the past six years and now I live in Norway with my partner. </p>

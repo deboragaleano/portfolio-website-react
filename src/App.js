@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter >
       <Container maxWidth="lg">
          <Navbar />
-              
+
         <div className="App">
           <Switch>
             <Route exact path='/' component={Home} />
@@ -29,7 +29,7 @@ function App() {
 export default App;
 
 /* GENERAL TODO
-- Contact page
+- Contact page add 
 - Decide on navbar, footer
 - Picture to add for the about page
 - Background colors
