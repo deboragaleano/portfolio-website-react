@@ -7,8 +7,7 @@ import {projects} from '../projects-data';
 const useStyles = makeStyles({
     root: {
       display: 'flex',
-      justifyContent: 'space-between',
-      flexWrap: 'wrap',
+      flexWrap: 'wrap'
     },
 });
 
@@ -40,5 +39,6 @@ export default Projects
 - When "see more" is clicked, show 3 more projects if I have those
 - ternary operator with the buttons (in case there's more too add)
 - If not, just send to my general GITHUB page
+- Fix the container of cards to be responsive 
 
 */

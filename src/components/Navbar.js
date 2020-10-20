@@ -40,5 +40,5 @@ TODO
 
 - Add Three links mininum (at the top)
 - Make it very minimalist and mobile first 
-
+- Make it fixed! 
 */
