@@ -11,8 +11,6 @@ const useStyles = makeStyles({
     },
 });
 
-console.log(projects);
-
 function Projects() {
     const classes = useStyles();
 
