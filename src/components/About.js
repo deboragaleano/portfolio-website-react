@@ -1,11 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Container} from '@material-ui/core';
-// import { loadCSS } from 'fg-loadcss';
 import {makeStyles} from '@material-ui/styles';
 import photo from '../assets/circle-dg-pic.png';
-import Icon from '@material-ui/core/Icon';
 import '../App.css'; 
-
 
 const useStyles = makeStyles({
     btn: {
@@ -19,22 +16,15 @@ const useStyles = makeStyles({
     title: {
         margin: '10px',
         letterSpacing: '1px',
+    }, 
+    icons: {
+        padding: '20px'
     }
+    
 })
 
 function About() {
     const classes = useStyles(); 
-
-    // useEffect(() => {
-    //     const node = loadCSS(
-    //       'https://use.fontawesome.com/releases/v5.12.0/css/all.css',
-    //       document.querySelector('#font-awesome-css'),
-    //     );
-    
-    //     return () => {
-    //       node.parentNode.removeChild(node);
-    //     };
-    //   }, []);
 
     return (
             <Container maxWidth='sm'>
@@ -42,7 +32,12 @@ function About() {
                     <img className={classes.img} src={photo} alt="debora"/>
                     <h3 className={classes.title}>DEBORA GALEANO</h3>
                     <h4 className={classes.title}>Web Developer</h4>
-                    <Icon className="fa fa-plus-circle" />
+                    <div className={classes.icons}>
+                        <a href="https://github.com/deboragaleano" target='_blank' rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                        <a href="https://twitter.com/dmgalser" target='_blank' rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/debora-galeano/" target='_blank' rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://dev.to/deboragaleano" target='_blank' rel="noopener noreferrer"><i class="fab fa-dev"></i></a>
+                    </div>
                     <div>
                         <p>fter discovering my passion for coding two years ago, I decided to make a career switch. I come from a humanities/social sciences background and I'm now interested in breaking into world of web development.</p>
                         <p>I am open to remote entry-level positions, where I can continue working on React/NodeJs and where I can build a long-term career. 
