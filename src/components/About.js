@@ -1,14 +1,14 @@
 import React from 'react';
 import {Container} from '@material-ui/core';
 import {makeStyles} from '@material-ui/styles';
-import photo from '../assets/foto_visigrad.png'
+import photo from '../assets/circle-dg-pic.png'
 import '../App.css'; 
 
 const useStyles = makeStyles({
     btn: {
         // background: 'linear-gradient(45deg, #993333, #cc6699)',
         border: 0,
-        borderRadius: 15,
+        // borderRadius: 15,
         color: 'white',
         padding: '0 30px',
     },
@@ -22,10 +22,8 @@ function About() {
     const classes = useStyles(); 
 
     return (
-        // <div className="App-header">
             <Container>
-               
-                <h1>ABOUT ME</h1>
+                <h1>DEBORA GALEANO</h1>
                 <div>
                     <img className={classes.img} src={photo} alt="debora"/>
                     <p>After discovering my passion for coding two years ago, I decided to make a career switch. I come from a humanities/social sciences background and I'm now interested in breaking into world of web development.</p>
@@ -37,7 +35,6 @@ function About() {
                     <a>Link to linkeding</a>
                 </div>
             </Container>
-        // </div>
     )
 }
 
@@ -47,4 +44,18 @@ export default About
 
 TODO:
 -SHORT version and LONG Version (?)
+*/
+
+
+
+/**
+    font-family: Abel;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .03em;
+    line-height: 2.2em;
+    text-transform: uppercase;
+    color: #000;
+
 */
