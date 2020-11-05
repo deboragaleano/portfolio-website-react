@@ -20,7 +20,7 @@ const NavButton = withStyles((theme) => ({
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        margin: '30px 0 30px 0',
+        margin: '30px 0 10px 0',
     }, 
     margin: {
         margin: theme.spacing(1),
@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     active: {
         fontWeight: 'bolder',
         borderBottom: '1px solid #339381f7',
+        color: '#339381f7'
     }
 }))
 
@@ -38,6 +39,8 @@ function Navbar() {
         <Container className={classes.root}>
             <NavButton component={NavLink} to='/' exact activeClassName={classes.active}className={classes.margin}>
                 Home</NavButton>
+            <NavButton component={NavLink} to='/about' exact activeClassName={classes.active}className={classes.margin}>
+                About</NavButton>
             <NavButton component={NavLink} to="/projects" exact activeClassName={classes.active} className={classes.margin}>   
                 Projects</NavButton>
             <NavButton  component={NavLink} to="/contact" exact activeClassName={classes.active} className={classes.margin}>    
