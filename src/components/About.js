@@ -16,13 +16,13 @@ const useStyles = makeStyles({
 
 const ReadMore = withStyles((theme) => ({
     root: {
-      color: '#339381f7',
+      color: '#D2691E',
       fontFamily: 'Abel',
       letterSpacing: '1px',
       transition:'all 0.5s ease',
-      border: '1px solid #339381f7',
+      border: '1px solid #D2691E',
       '&:hover': {
-        color: '#339381f7',
+        color: '#D2691E',
         transition: 'all 1s ease',
       },
     },
@@ -45,7 +45,7 @@ function About() {
                 <div className={classes.text}>
                     <p>I am a self-taught front-end developer looking for my first dev job. 
                     <br />I am interested in React, Node.Js/MongoDB but I'd love to train in other technologies as well.</p>
-                    <p>I am currently participating in <a href="https://the-collab-lab.codes/who-we-are/" target='_blank' rel="noopener noreferrer" >The Collab Lab</a>, building a React/Firebase app and pair programming with an amazing team of talented developers. I’m gaining experience working remotely and learning how sofware teams work.</p>
+                    <p>I am currently participating in <a href="https://the-collab-lab.codes/who-we-are/" target='_blank' rel="noopener noreferrer" >The Collab Lab</a>, building a React/Firebase app and pair programming with an amazing team of talented developers. I’m gaining experience working remotely and learning how software teams work.</p>
                     {expanded ? expandedText : <ReadMore onClick={() => setExpanded(true)}>READ MORE</ReadMore>}
                 </div>
                 <div className={classes.line}></div>

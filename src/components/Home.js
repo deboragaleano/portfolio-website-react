@@ -7,11 +7,6 @@ import Projects from './Projects'
 import Footer from './Footer';
 
 const useStyles = makeStyles({
-    // root: {
-    //     // backgroundColor: '#282c34', react background 
-    //     // #f5f5f5 grey kind of background 
-    //     // padding: '10px'
-    // },
     img: {
         maxWidth: '50%'
     },
@@ -22,8 +17,8 @@ const useStyles = makeStyles({
     icon: {
         textDecoration: 'none',
         margin: '5px',
-        color: 'grey',
-        fontSize: '25px',
+        fontSize: '20px',
+        color: '#D2691E',
         '&:hover': {
             color: '#339381f7',
             transition: 'all 1s ease',
@@ -34,8 +29,6 @@ const useStyles = makeStyles({
         margin: '40px 0 40px 0'
     }
 })
-
-// shade of green #669999
 
 function Home() {
     const classes = useStyles(); 
@@ -51,19 +44,19 @@ function Home() {
                         target='_blank' 
                         rel="noopener noreferrer" 
                         className={classes.icon}>
-                        <i className="fab fa-github-square"></i>
+                        <i className="fab fa-github"></i>
                     </a>
                     <a href="https://twitter.com/dmgalser" 
                         target='_blank' 
                         rel="noopener noreferrer" 
                         className={classes.icon}>
-                        <i className="fab fa-twitter-square"></i>
+                        <i className="fab fa-twitter"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/debora-galeano/" 
                         target='_blank' 
                         rel="noopener noreferrer" 
                         className={classes.icon}>
-                        <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     </a>
                     <a href="https://dev.to/deboragaleano" 
                         target='_blank' 
