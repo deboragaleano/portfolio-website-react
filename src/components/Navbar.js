@@ -20,7 +20,7 @@ const NavButton = withStyles((theme) => ({
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        margin: '30px 0 50px 0',
+        margin: '30px 0 30px 0',
     }, 
     margin: {
         margin: theme.spacing(1),
