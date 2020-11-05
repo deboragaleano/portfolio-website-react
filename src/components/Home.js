@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     },
     title: {
         margin: '10px',
-        letterSpacing: '2px',
+        letterSpacing: '1.5px',
     },
     icon: {
         textDecoration: 'none',

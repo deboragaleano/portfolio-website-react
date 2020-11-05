@@ -8,7 +8,6 @@ const NavButton = withStyles((theme) => ({
       color: 'rgb(13, 26, 38)',
       fontFamily: 'Abel',
       letterSpacing: '1px',
-      margin: '5px',
       transition:'all 0.5s ease',
       '&:hover': {
         borderBottom: '1px solid #339381f7',
@@ -20,10 +19,20 @@ const NavButton = withStyles((theme) => ({
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        margin: '30px 0 10px 0',
+        margin: '30px 0 7px 0',
     }, 
     margin: {
-        margin: theme.spacing(1),
+        margin: theme.spacing(0.3),
+    },
+    home: {
+        marginRight: '5px',
+        fontSize: '15px',
+        color: 'grey',
+        '&:hover': {
+            borderBottom: '1px solid #339381f7',
+            color: '#339381f7',
+            transition: 'all 1s ease',
+          },
     },
     active: {
         fontWeight: 'bolder',
@@ -37,8 +46,8 @@ function Navbar() {
 
     return (
         <Container className={classes.root}>
-            <NavButton component={NavLink} to='/' exact activeClassName={classes.active}className={classes.margin}>
-                Home</NavButton>
+            <NavLink to='/' exact className={classes.home} activeClassName={classes.active}>
+                <i className='fas fa-home'></i></NavLink>
             <NavButton component={NavLink} to='/about' exact activeClassName={classes.active}className={classes.margin}>
                 About</NavButton>
             <NavButton component={NavLink} to="/projects" exact activeClassName={classes.active} className={classes.margin}>   
