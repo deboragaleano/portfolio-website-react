@@ -34,7 +34,7 @@ function About() {
 
     const expandedText = 
         <>
-        <p>I am currently participating in <a href="https://the-collab-lab.codes/who-we-are/" target='_blank' rel="noopener noreferrer" >The Collab Lab</a>, building a React/Firebase app and pair programming with an amazing team of talented developers. I’m gaining experience working remotely and learning how sofware teams work.</p>
+        <p>In past positions, I worked as an assistant in international organizations like The World Bank, The International Fund for Agricultural Development and the Organization of American States.</p>
         <p>Besides coding, I love travelling and discovering new places. I'm originally from Paraguay but I studied and lived in Europe for the past six years and now I live in Norway with my partner. </p>
         <p>My coding language is <strong>JavaScript</strong> and my speaking languages are Spanish, English, and some French. Currently learning Norwegian ;)</p> 
         </>
@@ -45,7 +45,7 @@ function About() {
                 <div className={classes.text}>
                     <p>I am a self-taught front-end developer looking for my first dev job. 
                     <br />I am interested in React, Node.Js/MongoDB but I'd love to train in other technologies as well.</p>
-                   
+                    <p>I am currently participating in <a href="https://the-collab-lab.codes/who-we-are/" target='_blank' rel="noopener noreferrer" >The Collab Lab</a>, building a React/Firebase app and pair programming with an amazing team of talented developers. I’m gaining experience working remotely and learning how sofware teams work.</p>
                     {expanded ? expandedText : <ReadMore onClick={() => setExpanded(true)}>READ MORE</ReadMore>}
                 </div>
                 <div className={classes.line}></div>
