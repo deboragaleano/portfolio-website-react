@@ -19,7 +19,7 @@ const NavButton = withStyles((theme) => ({
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        margin: '30px 0 7px 0',
+        margin: '30px 0 50px 0',
     }, 
     margin: {
         margin: theme.spacing(0.3),
@@ -58,15 +58,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
-
-
-
-
-/*
-TODO
-
-- Add Three links mininum (at the top)
-- Make it very minimalist and mobile first 
-- Make it fixed! 
-*/
+export {NavButton, Navbar}

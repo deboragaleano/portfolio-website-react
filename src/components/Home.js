@@ -7,11 +7,11 @@ import Projects from './Projects'
 import Footer from './Footer';
 
 const useStyles = makeStyles({
-    root: {
-        // backgroundColor: '#282c34', react background 
-        // #f5f5f5 grey kind of background 
-        padding: '40px'
-    },
+    // root: {
+    //     // backgroundColor: '#282c34', react background 
+    //     // #f5f5f5 grey kind of background 
+    //     // padding: '10px'
+    // },
     img: {
         maxWidth: '50%'
     },
@@ -31,7 +31,7 @@ const useStyles = makeStyles({
     },
     line: {
         borderBottom: '1px solid #E8E8E8',
-        marginTop: '40px'
+        margin: '40px 0 40px 0'
     }
 })
 
