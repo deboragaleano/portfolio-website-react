@@ -2,25 +2,22 @@ export const projects = [
     {
         title: 'Workout App',
         image: 'add source',
-        description: 'add some description',
-        technologies: ['nodejs', 'material-ui'],
-        github: 'add link',
-        demo: 'add link app-live demo'
+        description: 'Nodejs, Express, MongoDB',
+        github: 'https://github.com/deboragaleano/RESTful-workout-app',
+        demo: 'https://workout-with-me.herokuapp.com/workouts'
     },
     {
         title: 'Smart Shopping',
         image: 'add source',
-        description: 'description',
-        technologies: ['nodejs', 'material-ui'],
-        github: 'add link',
-        demo: 'add link app-live demo'
+        description: 'React, Hooks, Firebase',
+        github: 'https://github.com/the-collab-lab/tcl-15-smart-shopping-list',
+        demo: 'https://tcl-15-smart-shopping-list.netlify.app/'
     },
     {
-        title: 'Phonebook',
+        title: 'My portfolio',
         image: 'add source',
-        description: 'description',
-        technologies: ['nodejs', 'material-ui'],
-        github: 'add link',
+        description: 'React, Hooks, Material-UI',
+        github: 'https://github.com/deboragaleano/portfolio-website-react',
         demo: 'add link app-live demo'
     },
 ]
