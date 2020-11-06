@@ -37,13 +37,3 @@ function App() {
 }
 
 export default App;
-
-/* GENERAL TODO
-- Contact page add 
-- Decide on navbar, footer
-- Picture to add for the about page
-- Background colors
-- Which projects ? Look at deployed ones
-- Check a 'checklist' of things that NEED to be there!
-
-*/
