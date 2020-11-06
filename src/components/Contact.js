@@ -29,7 +29,7 @@ export default function Contact() {
     <Container maxWidth="sm">
       <h2>CONTACT</h2>
       {success && (
-          <p style={{ color: "green" }}>Successfully submitted form!</p>
+          <p style={{ color: "green" }}>Thanks for your message! </p>
         )}
       <Card className={classes.root}>
         <form 
