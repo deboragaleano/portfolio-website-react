@@ -43,8 +43,8 @@ function About() {
             <Container maxWidth='sm'>
                 <h2>ABOUT ME</h2>
                 <div className={classes.text}>
-                    <p>I'm a self-taught front-end developer looking for a remote job opportunity. I know React, Node.Js/MongoDB but I'd love to train in other technologies as well.</p>
-                    <p>I'm currently participating in <a href="https://the-collab-lab.codes/who-we-are/" target='_blank' rel="noopener noreferrer" >The Collab Lab</a>, building a React/Firebase app and pair programming with an amazing team of talented developers. I’m gaining experience working remotely and learning how software teams work.</p>
+                    <p>I'm a self-taught front-end developer looking for a remote job opportunity. My tech stack includes React, Node.js/MongoDB but I'd love to train in other technologies as well! </p>
+                    <p>I'm currently participating in <a href="https://the-collab-lab.codes/who-we-are/" target='_blank' rel="noopener noreferrer" >The Collab Lab</a>, building a React/Firebase shopping app and collaborating with an amazing team of talented developers and mentors. I’m gaining experience in pair programming and working remotely.</p>
                     {expanded ? expandedText : <ReadMore onClick={() => setExpanded(true)}>READ MORE</ReadMore>}
                 </div>
                 <div className={classes.line}></div>
