@@ -16,8 +16,8 @@ export const projects = [
     {
         title: 'Campgrounds App',
         image: 'https://i.ibb.co/4F4xVNw/Screen-Shot-2020-11-05-at-9-48-37-PM.png',
-        description: 'React, Hooks, Material-UI',
-        github: 'https://github.com/deboragaleano/portfolio-website-react',
-        demo: 'add link app-live demo'
+        description: 'MERN stack (ongoing)',
+        github: 'https://github.com/deboragaleano/camp-norge-app',
+        demo: '#'
     },
 ]

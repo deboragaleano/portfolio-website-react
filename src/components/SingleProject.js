@@ -5,7 +5,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
@@ -66,16 +65,23 @@ export default function SingleProject({project}) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={project.image}
-        />
+          image={project.image}/>
         <CardContent className={classes.root}>
           <h3>{project.title}</h3>
           <p>{project.description}</p>
         </CardContent>
       </CardActionArea>
       <div className={classes.actions}> 
-        <GithubButton rel="noopener noreferrer" target="_blank" href={project.github}>GitHub</GithubButton>
-        <DemoButton rel="noopener noreferrer" target="_blank" href={project.demo}>Live Demo</DemoButton>
+        <GithubButton 
+          rel="noopener noreferrer" 
+          target="_blank" 
+          href={project.github}>
+            GitHub</GithubButton>
+        <DemoButton 
+          rel="noopener noreferrer" 
+          target="_blank" 
+          href={project.demo}>
+            Live Demo</DemoButton>
       </div>
     </Card>
   );

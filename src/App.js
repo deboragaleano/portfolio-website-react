@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container';
 import Contact from './components/Contact'; 
 import Projects from './components/Projects'; 
 import Home from './components/Home'; 
-import About from './components/About'; 
+import {About} from './components/About'; 
 import {Navbar} from './components/Navbar'; 
 
 const useStyles = makeStyles({

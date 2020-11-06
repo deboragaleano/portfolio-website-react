@@ -2,9 +2,10 @@ import React from 'react'
 import {Container} from '@material-ui/core';
 import {makeStyles} from '@material-ui/styles';
 import photo from '../assets/circle-dg-pic.png';
-import About from './About';
+import {About} from './About';
 import Projects from './Projects'
 import Footer from './Footer';
+import Contact from './Contact';
 
 const useStyles = makeStyles({
     img: {
@@ -17,7 +18,7 @@ const useStyles = makeStyles({
     icon: {
         textDecoration: 'none',
         margin: '5px',
-        fontSize: '20px',
+        fontSize: '25px',
         color: '#D2691E',
         '&:hover': {
             color: '#339381f7',
@@ -69,6 +70,7 @@ function Home() {
             </Container>
             <About />
             <Projects />
+            <Contact />
             <Footer />
         </>
     )
