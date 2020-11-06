@@ -23,7 +23,7 @@ export default function Contact() {
         <Container maxWidth='sm'>
             <h2>CONTACT</h2>
             <Card className={classes.root}>
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" netifly data-netlify="true">
                     <TextField id="standard-basic" 
                         label="name" name="name" /> <br />
                     <TextField id="standard-basic" 
