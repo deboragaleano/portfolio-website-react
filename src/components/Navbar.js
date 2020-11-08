@@ -10,9 +10,7 @@ const NavButton = withStyles((theme) => ({
       letterSpacing: '1px',
       transition:'all 0.5s ease',
       '&:hover': {
-        borderBottom: '1px solid #D2691E',
         color: '#D2691E',
-        transition: 'all 1s ease',
       },
     },
   }))(Button);
@@ -29,14 +27,13 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '15px',
         color: 'grey',
         '&:hover': {
-            borderBottom: '1px solid #D2691E',
+            borderBottom: '1px solid transparent',
             color: '#D2691E',
-            transition: 'all 1s ease',
+            transition: 'all 0.5s ease',
           },
     },
     active: {
         fontWeight: 'bolder',
-        borderBottom: '1px solid #D2691E',
         color: '#D2691E'
     }
 }))
