@@ -35,6 +35,18 @@ function About() {
   const expandedText = (
     <>
       <p>
+        I've recently participated in the{" "}
+        <a
+          href="https://the-collab-lab.codes/who-we-are/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Collab Lab
+        </a>
+        , building a React app and collaborating with an
+        amazing team of talented developers and mentors. During 8 weeks, I’ve gained experience working remotely and pair programming. 
+      </p>
+      <p>
         In past positions, I worked as an assistant in international
         organizations like The World Bank and the Organization of American
         States in Washington D.C.
@@ -42,7 +54,7 @@ function About() {
       <p>
         I'm originally from Paraguay but I've been living in different countries
         around Europe for the past six years and now I live in Oslo with my
-        partner.
+        partner. 
       </p>
     </>
   );
@@ -52,21 +64,17 @@ function About() {
       <h2>ABOUT ME</h2>
       <div className={classes.text}>
         <p>
-          I'm a frontend developer looking for a remote job opportunity. 
-          My tech stack includes <strong>JavaScript</strong> and <strong>React</strong> but I'd love to train in other technologies as well!
-        </p>
+          I'm a career changer who discovered web development more than a year
+          ago and never looked back. I'm now looking for my first job as a junior frontend developer or support engineer. </p>
         <p>
-          I've recently participated in the {" "}
+          I'm focusing on <strong>JavaScript</strong> and {" "}
+          <strong>React</strong> at the moment and writing technical blogs on  {" "}
           <a
-            href="https://the-collab-lab.codes/who-we-are/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            The Collab Lab
-          </a>
-          , building a React/Firebase shopping app and collaborating with an
-          amazing team of talented developers and mentors. I’ve gained
-          experience in pair programming and working remotely.
+          href="https://dev.to/deboragaleano"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DEV.to </a>
         </p>
         {expanded ? (
           expandedText
