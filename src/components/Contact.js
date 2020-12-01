@@ -20,7 +20,7 @@ export default function Contact() {
   const classes = useStyles();
 
   useEffect(() => {
-    if ( window.location.search.includes('success=true') ) {
+    if (window.location.search.includes("success=true")) {
       setSuccess(true);
     }
   }, []);
@@ -28,20 +28,31 @@ export default function Contact() {
   return (
     <Container maxWidth="sm">
       <h2>CONTACT</h2>
-      {success && (
-          <p style={{ color: "green" }}>Thanks for your message! </p>
-        )}
+      {success && <p style={{ color: "green" }}>Thanks for your message! </p>}
       <Card className={classes.root}>
-        <form 
-            name="contact" 
-            method="POST" 
-            action="/contact/?success=true"
-            data-netlify="true" 
-            >
-        <input type="hidden" name="form-name" value="contact" />
-          <TextField id="standard-basic" label="name" name="name" /> <br />
-          <TextField id="standard-basic" label="email" name="email" /> <br />
+        <form
+          name="contact"
+          method="POST"
+          action="/contact/?success=true"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <TextField
+            required
+            id="standard-basic"
+            label="name"
+            name="name"
+          />{" "}
+          <br />
+          <TextField
+            required
+            id="standard-basic"
+            label="email"
+            name="email"
+          />{" "}
+          <br />
+          <TextField
+            required
             multiline
             rows={4}
             id="standard-multiline-static"
